@@ -1,0 +1,122 @@
+#content {
+  margin-top: 164px;
+  width: 100%;
+  display: flex;
+  min-height: 700px;
+}
+#content input,
+#content textarea,
+#content button {
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-top: 9px;
+}
+#content .content__left {
+  padding: 48px 12px;
+  width: 40%;
+  background-color: #f1c0e8;
+}
+#content .content__left .title {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 12px;
+}
+#content .content__left .title::before {
+  content: "";
+  width: 6px;
+  height: 100%;
+  position: absolute;
+  background-color: #2a9d8f;
+  left: -9px;
+}
+#content .content__left .info {
+  width: 80%;
+  margin: 0 auto;
+}
+#content .content__left .submit {
+  background-color: #2a9d8f;
+  color: #fff;
+}
+#content .content__right {
+  width: 60%;
+  background-color: #90dbf4;
+  padding: 64px 32px;
+}
+#content .content__right .title {
+  text-transform: uppercase;
+  position: relative;
+}
+#content .content__right .title::before {
+  content: "";
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background-color: #f72585;
+  top: -20px;
+  right: 0;
+  left: 0;
+}
+#content .content__right .desc {
+  background-image: url("../img/icon-contact-info-quote.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  padding-left: 54px;
+  width: 100%;
+  position: relative;
+}
+#content .content__right .desc::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #f72585;
+  bottom: -12px;
+  right: 0;
+  left: 0;
+}
+#content .contact {
+  margin-top: 24px;
+}
+#content .contact p a {
+  text-decoration: none;
+}
+#content .contact p span {
+  color: #ff6600;
+  font-weight: 700;
+}
+#content .contact .place {
+  width: 90%;
+  margin-top: 16px;
+  margin: 0 auto;
+  display: flex;
+}
+#content .contact .place__title {
+  padding-bottom: 6px;
+  border-bottom: 0.5px solid #333;
+  margin-bottom: 12px;
+}
+#content .contact .place .left {
+  width: 30%;
+  padding: 16px;
+}
+#content .contact .place .left p {
+  font-size: 14px;
+}
+#content .contact .place .right {
+  width: 70%;
+  padding: 16px;
+}
+#content .contact .place .right iframe {
+  border-radius: 9px;
+}
+
+/*# sourceMappingURL=feedback.css.map */
